@@ -9,13 +9,28 @@ import PrivacyPolicy from './components/PrivacyPolicy.vue';
 
 
 
-const routes = [
-    { path: '/', component: Home },
-    { path: '/about', component: About },
-    { path: '/gallery', component: Gallery },
-    { path: '/gallery-detail', component: GalleryDetail },
-    { path: '/gallery-detail-left', component: GalleryDetailLeft },
-    { path: '/gallery-detail-right', component: GalleryDetailRight },
+const routes = [{
+        path: '/',
+        name: 'Home',
+        component: Home
+    },
+    {
+        path: '/about',
+        name: 'About',
+        component: About
+    },
+    {
+        path: '/gallery',
+        name: 'Gallery',
+        component: Gallery
+    },
+    {
+        path: '/gallery-detail/:id',
+        name: 'GalleryDetail',
+        component: GalleryDetail
+    },
+    // { path: '/gallery-detail-left', component: GalleryDetailLeft },
+    // { path: '/gallery-detail-right', component: GalleryDetailRight },
     { path: '/contact', component: Contact },
     { path: '/privacy-policy', component: PrivacyPolicy },
     { path: '/terms-of-use', component: PrivacyPolicy },
