@@ -13,9 +13,11 @@
         "postcss": "^8.1.14",
         "sass": "^1.56.1",
         "vite": "^4.0.0",
-        "vue": "^3.2.37"
+        "vue": "^3.3.4"
     },
     "dependencies": {
+        "bootstrap": "^5.3.0",
+        "bootstrap-vue": "^2.23.1",
         "jquery": "^3.7.0",
         "vue-router": "^4.2.2"
     }

@@ -1,126 +1,247 @@
 <template>
- <div id="main">
-        	<div class="breadcrumb"><!-- *BreadCrumb Starts here** -->
+    <div id="main">
+        <div class="breadcrumb">
+            <!-- *BreadCrumb Starts here** -->
+            <div class="container">
+                <h2>Contact <span>Us</span></h2>
+            </div>
+        </div>
+        <!-- *BreadCrumb Ends here** -->
+        <section id="primary" class="content-full-width">
+            <!-- **Primary Starts Here** -->
+            <div class="fullwidth-section">
+                <!-- Full-width section Starts Here -->
                 <div class="container">
-                    <h2>Contact <span>Us</span></h2>
-                    <!-- <div class="user-summary">
-                    	<div class="account-links">
-                        	<a href="#">My Account</a>
-                            <a href="#">Checkout</a>
-                        </div>
-                        <div class="cart-count">
-                        	<a href="#">Shopping Bag: 0 items</a> 
-                            <a href="#">($0.00)</a>
-                        </div>
-                    </div> -->
+                    <div
+                        class="main-title animate"
+                        data-animation="pullDown"
+                        data-delay="100"
+                    >
+                        <h3>Contact</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do
+                        </p>
+                    </div>
                 </div>
-        	</div><!-- *BreadCrumb Ends here** -->
-            <section id="primary" class="content-full-width"><!-- **Primary Starts Here** -->
-				<div class="fullwidth-section"><!-- Full-width section Starts Here -->
-                	<div class="container">
-						<div class="main-title animate" data-animation="pullDown" data-delay="100">
-                            <h3> Contact </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                        </div>                    	
+                <div class="contact-section">
+                    <div
+                        id="contact_map"
+                        class="animate"
+                        data-animation="fadeInRight"
+                        data-delay="100"
+                    >
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.7276757352756!2d55.2217558117282!3d25.144896077651836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b57a4f42461%3A0x3f3a3a4977f465a1!2sElephantus%20Art%20Gallery!5e0!3m2!1sen!2sae!4v1686399375900!5m2!1sen!2sae"
+                            width="600"
+                            height="600"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
-                    <div class="contact-section"><!-- **contact-section Starts Here** -->
-                        <div id="contact_map" class="animate" data-animation="fadeInRight" data-delay="100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.7276757352756!2d55.2217558117282!3d25.144896077651836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b57a4f42461%3A0x3f3a3a4977f465a1!2sElephantus%20Art%20Gallery!5e0!3m2!1sen!2sae!4v1686399375900!5m2!1sen!2sae" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div
+                        class="dt-sc-contact-info animate"
+                        data-animation="fadeInLeft"
+                        data-delay="100"
+                    >
+                        <h3>Artist Info</h3>
+                        <div class="dt-sc-contact-details">
+                            <span class="fa fa-map-marker"></span> Address: Al
+                            Quoz 1, Showroom 4 - Dubai UAE
                         </div>
-                        <div class="dt-sc-contact-info animate" data-animation="fadeInLeft" data-delay="100">
-                            <h3>Artist Info</h3>
-                            <div class="dt-sc-contact-details"><span class="fa fa-map-marker"></span> Address: Al Quoz 1, Showroom 4 - Dubai UAE </div>
-                            <div class="dt-sc-contact-details"><span class="fa fa-tablet"></span> Phone: +971 52 777 4545</div>
-                            <div class="dt-sc-contact-details"><span class="fa fa-globe"></span> Web: <a href="https://elephantusartgallery.com">https://elephantusartgallery.com</a> </div>
-                            <ul class="type3 dt-sc-social-icons">
-                                <li class="twitter"><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-                                <li class="facebook"><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                <li class="google"><a href="#"> <i class="fa fa-google"></i> </a></li>
-                                <li class="dribbble"><a href="#"> <i class="fa fa-dribbble"></i> </a></li>
-                                <li class="pinterest"><a href="#"> <i class="fa fa-pinterest"></i> </a></li>
-                                <li class="linkedin"><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                <li class="flickr"><a href="#"> <i class="fa fa-flickr"></i> </a></li>
-                                <li class="tumblr"><a href="#"> <i class="fa fa-tumblr"></i> </a></li>
-                            </ul>                        
+                        <div class="dt-sc-contact-details">
+                            <span class="fa fa-tablet"></span> Phone: +971 52
+                            777 4343
                         </div>
-                    </div><!-- **contact-section Ends Here** -->
-                    <div class="dt-sc-hr-invisible-toosmall"></div>
-                    <div class="container">
-                    	<div class="dt-sc-three-fourth column first animate" data-animation="fadeInDown" data-delay="100">
-                            <h3>Get in Touch</h3>
-                            <form class="enquiry-form" action="php/send.php" method="post" name="enqform" >
-                                <div class="column dt-sc-one-third first">
-                                    <p class="input-text">
-                                       <input class="input-field" type="text" name="txtname" title="Enter your Name" placeholder="Name *"/>
-                                    </p>
-                                </div>
-                                <div class="column dt-sc-one-third">
-                                    <p class="input-text">
-                                       <input class="input-field" type="email" autocomplete="off" name="txtemail" title="Enter your valid id" placeholder="Email *"/>
-                                    </p>
-                                </div>
-                                <div class="column dt-sc-one-third">
-                                    <p class="input-text">
-                                       <input class="input-field" type="text" autocomplete="off" placeholder="Website"/>
-                                    </p>
-                                </div>
-                                <p class="input-text"> 
-                                    <textarea class="input-field" rows="3" cols="5" name="txtmessage" title="Enter your Message" placeholder="Message *"></textarea>
+                        <div class="dt-sc-contact-details">
+                            <span class="fa fa-globe"></span> Web:
+                            <a href="https://elephantusartgallery.com"
+                                >https://elephantusartgallery.com</a
+                            >
+                        </div>
+                        <ul class="type3 dt-sc-social-icons">
+                            <li class="twitter">
+                                <a href="#"> <i class="fa fa-twitter"></i> </a>
+                            </li>
+                            <li class="facebook">
+                                <a href="#"> <i class="fa fa-facebook"></i> </a>
+                            </li>
+                            <li class="google">
+                                <a href="#"> <i class="fa fa-google"></i> </a>
+                            </li>
+                            <li class="dribbble">
+                                <a href="#"> <i class="fa fa-dribbble"></i> </a>
+                            </li>
+                            <li class="pinterest">
+                                <a href="#">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li class="linkedin">
+                                <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                            </li>
+                            <li class="flickr">
+                                <a href="#"> <i class="fa fa-flickr"></i> </a>
+                            </li>
+                            <li class="tumblr">
+                                <a href="#"> <i class="fa fa-tumblr"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- **contact-section Ends Here** -->
+                <div class="dt-sc-hr-invisible-toosmall"></div>
+                <div class="container">
+                    <div
+                        class="dt-sc-three-fourth column first animate"
+                        data-animation="fadeInDown"
+                        data-delay="100"
+                    >
+                        <h3>Get in Touch</h3>
+                        <form
+                            class="enquiry-form"
+                            action="php/send.php"
+                            method="post"
+                            name="enqform"
+                        >
+                            <div class="column dt-sc-one-third first">
+                                <p class="input-text">
+                                    <input
+                                        class="input-field"
+                                        type="text"
+                                        name="txtname"
+                                        title="Enter your Name"
+                                        placeholder="Name *"
+                                    />
                                 </p>
-                                
-                                <p class="submit"> <input type="submit" value="Send" name="submit" class="button" /> </p>
-                            </form>
-                            <div id="ajax_contactform_msg"></div>
-                        </div>
-                        <div class="dt-sc-one-fourth column animate" data-animation="fadeInRight" data-delay="100">
-                        	<h5>Visit Us Today !</h5>
-                            
-                            <h5>Business Hours</h5>
-                            <ul class="dt-sc-working-hours">
-                            	<li>Hotline is available for 24 hours a day!..</li>
-								<li>Monday - Friday :<span> 9am to 6pm</span></li>
-                                <li>Saturday : <span>10am to 5pm</span></li>
-                                <li>Sunday : <span>Closed</span></li>
-                            </ul>
-                        </div>
-                        <div class="newsletter"><!--Newsletter Form Starts Here -->
-                        		<h3>Newsletter</h3>
-                                <form method="post" class="mailchimp-form dt-sc-one-half column first animate" data-animation="stretchLeft" data-delay="100" name="frmnewsletter" action="php/subscribe.php">	
-                                    <p class="input-text">
-                                       <input class="input-field" type="email" name="mc_email" value="" required/>
-                                       <label class="input-label">
-                                                <i class="fa fa-envelope-o icon"></i>
-                                                <span class="input-label-content">Mail</span>
-                                            </label>
-                                       <input type="submit" name="submit" class="submit" value="Subscribe" />
-                                    </p>
-                                </form>
-                                <div id="ajax_subscribe_msg"></div>
-                                
-                                <div class="newsletter-text animate dt-sc-one-half column" data-animation="stretchRight" data-delay="100"> <i class="fa fa-envelope-o"> </i> Feel free to place your Mail_ID and Subscribe to our Newsletter here. So that, you can receive our exiting Updates and Offers with no wait! </div>
-                    	</div><!--Newsletter Form Ends Here -->
-                    </div>
-                </div><!-- Full-width section Ends Here -->
-            </section><!-- **Primary Ends Here** -->
-            <Footer></Footer>
-        </div><!-- Main Ends Here-->
+                            </div>
+                            <div class="column dt-sc-one-third">
+                                <p class="input-text">
+                                    <input
+                                        class="input-field"
+                                        type="email"
+                                        autocomplete="off"
+                                        name="txtemail"
+                                        title="Enter your valid id"
+                                        placeholder="Email *"
+                                    />
+                                </p>
+                            </div>
+                            <div class="column dt-sc-one-third">
+                                <p class="input-text">
+                                    <input
+                                        class="input-field"
+                                        type="text"
+                                        autocomplete="off"
+                                        placeholder="Website"
+                                    />
+                                </p>
+                            </div>
+                            <p class="input-text">
+                                <textarea
+                                    class="input-field"
+                                    rows="3"
+                                    cols="5"
+                                    name="txtmessage"
+                                    title="Enter your Message"
+                                    placeholder="Message *"
+                                ></textarea>
+                            </p>
 
+                            <p class="submit">
+                                <input
+                                    type="submit"
+                                    value="Send"
+                                    name="submit"
+                                    class="button"
+                                />
+                            </p>
+                        </form>
+                        <div id="ajax_contactform_msg"></div>
+                    </div>
+                    <div
+                        class="dt-sc-one-fourth column animate"
+                        data-animation="fadeInRight"
+                        data-delay="100"
+                    >
+                        <h5>Visit Us Today !</h5>
+
+                        <h5>Business Hours</h5>
+                        <ul class="dt-sc-working-hours">
+                            <li>Hotline is available for 24 hours a day!..</li>
+                            <li>Monday - Friday :<span> 9am to 6pm</span></li>
+                            <li>Saturday : <span>10am to 5pm</span></li>
+                            <li>Sunday : <span>Closed</span></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter">
+                        <!--Newsletter Form Starts Here -->
+                        <h3>Newsletter</h3>
+                        <form
+                            method="post"
+                            class="mailchimp-form dt-sc-one-half column first animate"
+                            data-animation="stretchLeft"
+                            data-delay="100"
+                            name="frmnewsletter"
+                            action="php/subscribe.php"
+                        >
+                            <p class="input-text">
+                                <input
+                                    class="input-field"
+                                    type="email"
+                                    name="mc_email"
+                                    value=""
+                                    required
+                                />
+                                <label class="input-label">
+                                    <i class="fa fa-envelope-o icon"></i>
+                                    <span class="input-label-content"
+                                        >Mail</span
+                                    >
+                                </label>
+                                <input
+                                    type="submit"
+                                    name="submit"
+                                    class="submit"
+                                    value="Subscribe"
+                                />
+                            </p>
+                        </form>
+                        <div id="ajax_subscribe_msg"></div>
+
+                        <div
+                            class="newsletter-text animate dt-sc-one-half column"
+                            data-animation="stretchRight"
+                            data-delay="100"
+                        >
+                            <i class="fa fa-envelope-o"> </i> Feel free to place
+                            your Mail_ID and Subscribe to our Newsletter here.
+                            So that, you can receive our exiting Updates and
+                            Offers with no wait!
+                        </div>
+                    </div>
+                    <!--Newsletter Form Ends Here -->
+                </div>
+            </div>
+            <!-- Full-width section Ends Here -->
+        </section>
+        <!-- **Primary Ends Here** -->
+        <Footer></Footer>
+    </div>
+    <!-- Main Ends Here-->
 </template>
 
 <script>
-    import Sidebar from './partials/Sidebar.vue';
-    import Footer from './Footer.vue';
-    
-    export default {
-       
-        components:{
-            Sidebar,
-            Footer
-        }, 
-        mounted() {
-        
-        },
-        
+import Sidebar from "./partials/Sidebar.vue";
+import Footer from "./Footer.vue";
 
-    }
+export default {
+    components: {
+        Sidebar,
+        Footer,
+    },
+    mounted() {},
+};
 </script>

@@ -6,7 +6,8 @@
                         <a href="#" class="close-btn">
                             <span class="close"></span>
                         </a>
-                        <a class="logo-container"><router-link to="/">
+                        <a class="logo-container">
+                            <router-link to="/">
                             <img src="images/logo.png" alt="" ></router-link>
                         </a>
                         <nav>
@@ -15,13 +16,13 @@
                                 </li>
                                 <router-link to="/about"><li class="menu-item-simple-parent"><a title="About" >About Us</a></li></router-link>
                                 <li class="menu-item-simple-parent">
-                                    <router-link to="/gallery"><a>Gallery Page <span class="arrow"></span></a></router-link>
-                                    <ul class="sub-menu">
+                                    <router-link to="/gallery"><a>Gallery</a></router-link>
+                                    <!-- <ul class="sub-menu">
                                         <router-link to="/gallery"><li><a>Gallery</a></li></router-link>
                                         <router-link to="/gallery-detail"><li><a>Gallery detail</a></li></router-link>
                                         <router-link to="/gallery-detail-left"><li><a>Gallery-detail-left-sidebar</a></li></router-link>
                                         <router-link to="/gallery-detail-right"><li><a>Gallery-detail-right-sidebar</a></li></router-link>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <router-link to="/contact"><li class="menu-item-simple-parent"><a title="Contact">Contact</a></li></router-link>                                              
                             </ul>
@@ -41,7 +42,7 @@
                     <span></span>
                 </a>
                 <router-link to="/"><a class="logo-mini">
-                	<img src="images/logo-mini.png" alt="">
+                	<!-- <img src="images/logo-mini.png" alt=""> -->
                     <span><i style="color: black;"><b>E L E P H A N T U S</b></i>   </span>
                 </a></router-link>
                 <router-link to="/"><a class="logo-mobile">
